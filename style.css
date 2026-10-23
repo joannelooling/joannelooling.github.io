@@ -20,3 +20,6 @@ h4 {
   color: #000000;
   font-size: 0.5rem;
 }
+.spacer {
+  height: 30px; /* Adjust this height to control the empty space */
+}
