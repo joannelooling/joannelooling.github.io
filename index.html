@@ -1,8 +1,61 @@
-<h1>Joanne Loo Ling</h1>
-<p>Artist & Writer: Buddhist Philosophy (Nichiren Buddhism) ✦ Existentialism ✦ Somatic Tools & Practices</p>
-<figure style="text-align: left;">
-  <img src="assets/images/joannelooling-art-01-lowres.jpg" alt="Artwork" width="500">
-  <figcaption style="font-style: italic; color: #000000; margin-top: 8px;">
-    <i>Special Interests</i> (2026), Oil on paper, 6x9 in.
-  </figcaption>
-</figure>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- 1. Crucial tag for mobile responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joanne Loo Ling</title>
+  
+  <style>
+    /* 2. Reset default margins and enable centering grid */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #ffffff;
+      
+      display: flex;
+      justify-content: center; /* Horizontally centers the page content */
+      min-height: 100vh;       /* Spans the full height of the browser screen */
+    }
+
+    /* 3. The Responsive Container */
+    .site-container {
+      width: 100%;            /* Spans full width on small screens/mobile */
+      max-width: 800px;       /* The maximum width the site will grow on desktop */
+      padding: 20px;          /* Prevents text from hitting screen edges on mobile */
+      box-sizing: border-box; /* Ensures padding doesn't break the layout */
+      background: #ffffff;
+      
+      text-align: center;     /* Centers all text inside the container */
+    }
+
+    /* 4. Make all images responsive automatically */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto 15px auto; /* Centers the image and adds bottom spacing */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Everything on your website must go inside this container -->
+  <div class="site-container">
+    
+    <h1>Welcome to My Centered Site</h1>
+   
+    <p>Artist & Writer: Buddhist Philosophy (Nichiren Buddhism) ✦ Existentialism ✦ Somatic Tools & Practices</p>
+    
+    <figure>
+      <img src="joannelooling-art-01-lowres.jpg" alt="Artwork">
+      <figcaption><i>Special Interests</i> (2026), Oil on paper, 6x9 in.</figcaption>
+    </figure>
+
+    <p>This layout automatically adapts to phones, tablets, and desktop computers.</p>
+    
+  </div>
+
+</body>
+</html>
