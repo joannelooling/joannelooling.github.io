@@ -40,6 +40,7 @@ a:hover {
 }
 
 .content-section {
+  display: block;
   padding-top: 30px;    /* Generates large space inside the top of the section */
   padding-bottom: 30px; /* Generates large space inside the bottom */
 }
