@@ -25,15 +25,18 @@ h4 {
   font-size: 0.5rem;
 }
 
-/* When someone hovers their mouse over the link */
-a:hover {
-  color: #000000;          /* Darkens the color slightly */
-  text-decoration: underline; /* Adds the underline back on hover */
+a {
+  color: #000000; /* Unclicked links are blue */
+  text-decoration: none;
 }
 
-/* A link the user has already clicked/visited */
 a:visited {
-  color: #000000;          /* Changes color so users know they've been there */
+  color: black;   /* Clicked links turn black */
+}
+
+a:hover {
+  color: #000000; /* Hovering turns red */
+  text-decoration: underline;
 }
 
 .content-section {
