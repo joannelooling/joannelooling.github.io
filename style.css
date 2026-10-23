@@ -26,8 +26,8 @@ h5 {
   font-weight: normal;
 }
 .content-section {
-  padding-top: 60px;    /* Generates large space inside the top of the section */
-  padding-bottom: 60px; /* Generates large space inside the bottom */
+  padding-top: 30px;    /* Generates large space inside the top of the section */
+  padding-bottom: 30px; /* Generates large space inside the bottom */
 }
 .spacer {
   height: 30px; /* Adjust this height to control the empty space */
