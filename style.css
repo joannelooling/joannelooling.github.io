@@ -26,17 +26,22 @@ h4 {
 }
 
 a {
-  color: #000000; /* Unclicked links are blue */
+  color: #000000; /* Unclicked links are black */
   text-decoration: none;
 }
 
 a:visited {
-  color: black;   /* Clicked links turn black */
+  color: #000000;   /* Clicked links turn black */
 }
 
 a:hover {
-  color: #000000; /* Hovering turns red */
+  color: #000000; /* Hovering turns black */
   text-decoration: underline;
+}
+
+a:active {
+  color: #000000; /* Active links are black */
+  text-decoration: none;
 }
 
 .content-section {
